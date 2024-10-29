@@ -27,18 +27,18 @@ public class Dapraver extends JFrame{
         fnd = new Color(211, 211, 211);
 
         fnt = new Font("Arial",Font.BOLD,30);
-        fntNmrs = new Font("Arial", Font.BOLD, 20);
+        fntNmrs = new Font("Arial", Font.BOLD, 50);
 
         jbBtSmr = new JButton("=");
         jbBtSmr.setFont(fnt);
-        jbBtSmr.setBounds(280, 150, 90, 30);
+        jbBtSmr.setBounds(280, 150, 90, 40);
         add(jbBtSmr);
         
-        jlRsltd = new JLabel("111111111");
+        jlRsltd = new JLabel("11111111");
         jlRsltd.setFont(fntNmrs);
         jlRsltd.setOpaque(true);
         jlRsltd.setBackground(fnd);
-        jlRsltd.setBounds(230, 60, 100 , 40);
+        jlRsltd.setBounds(20, 20, 340 , 100);
         add(jlRsltd);
 
         jtfNmr1 = new JTextField();
