@@ -15,7 +15,7 @@ public class Dapraver extends JFrame{
     private JButton  jbBtNm0, jbBtNm1, jbBtNm2, jbBtNm3, jbBtNm4, jbBtNm5,
     jbBtNm6, jbBtNm7, jbBtNm8, jbBtNm9;
 
-    private JLabel jlClcl;
+    private JLabel jlClclr;
 
     public Dapraver(){
 
@@ -104,14 +104,77 @@ public class Dapraver extends JFrame{
         jbBtNm9.setBounds(160, 260, 60, 60);
         add(jbBtNm9);
 
-        jlClcl = new JLabel();
-        jlClcl.setFont(fntRsltd);
-        jlClcl.setOpaque(true);
-        jlClcl.setBackground(fnd);
-        jlClcl.setBounds(20, 20, 340 , 100);
-        add(jlClcl);
+        jlClclr = new JLabel();
+        jlClclr.setFont(fntRsltd);
+        jlClclr.setOpaque(true);
+        jlClclr.setBackground(fnd);
+        jlClclr.setBounds(20, 20, 340 , 100);
+        add(jlClclr);
 
         setVisible(true);
     }
 
+    public JButton getJbBtRslt() {
+        return jbBtRslt;
+    }
+
+    public JButton getJbBtSmr() {
+        return jbBtSmr;
+    }
+
+    public JButton getJbBtSbtr() {
+        return jbBtSbtr;
+    }
+
+    public JButton getJbBtMltplcr() {
+        return jbBtMltplcr;
+    }
+
+    public JButton getJbBtDvdr() {
+        return jbBtDvdr;
+    }
+
+    public JButton getJbBtNm0() {
+        return jbBtNm0;
+    }
+
+    public JButton getJbBtNm1() {
+        return jbBtNm1;
+    }
+
+    public JButton getJbBtNm2() {
+        return jbBtNm2;
+    }
+
+    public JButton getJbBtNm3() {
+        return jbBtNm3;
+    }
+
+    public JButton getJbBtNm4() {
+        return jbBtNm4;
+    }
+
+    public JButton getJbBtNm5() {
+        return jbBtNm5;
+    }
+
+    public JButton getJbBtNm6() {
+        return jbBtNm6;
+    }
+
+    public JButton getJbBtNm7() {
+        return jbBtNm7;
+    }
+
+    public JButton getJbBtNm8() {
+        return jbBtNm8;
+    }
+
+    public JButton getJbBtNm9() {
+        return jbBtNm9;
+    }
+
+    public JLabel getJlClclr() {
+        return jlClclr;
+    }
 }
